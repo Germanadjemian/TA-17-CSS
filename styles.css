@@ -1,0 +1,58 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Fondo para contrastar la tarjeta */
+}
+
+/* Carta (div)*/
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff; /*este y las 2 de abajo hacen que se vea la carta blanca, pero no se bien como funciona el efecto visual de los otros 2*/
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Avatar */
+.avatar {
+    position: absolute;
+    top: -40px; /* Posición del avatar en la esquina superior izquierda */
+    left: 20px;
+    width: 80px; /* Tamaño del avatar */
+    height: 80px;
+    border-radius: 50%; /* Redondea el avatar de una forma rara*/
+    border: 3px solid #fff; /* Borde blanco para destacarlo */
+    object-fit: cover;
+}
+
+/* Encabezado del nombre */
+h2 {
+    margin-top: 55px; 
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;/*Esto le da el toque*/
+}
